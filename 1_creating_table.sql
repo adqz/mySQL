@@ -1,3 +1,4 @@
+-- DROP TABLE student;
 CREATE TABLE student (
     student_id INT,
     name VARCHAR(50),
@@ -6,3 +7,6 @@ CREATE TABLE student (
 );
 
 DESCRIBE student;
+
+ALTER TABLE student ADD gpa DECIMAL(3,2);
+ALTER TABLE student DROP column gpa;

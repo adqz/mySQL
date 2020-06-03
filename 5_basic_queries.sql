@@ -17,3 +17,15 @@ WHERE major = 'Biology';
 SELECT *
 FROM student
 WHERE major = 'Chemistry' OR major = 'Biology';
+
+SELECT *
+FROM student
+WHERE major = 'Chemistry' OR major = 'Biology';
+
+SELECT *
+FROM student
+WHERE major = 'Chemistry' OR major = 'Biology';
+
+SELECT *
+FROM student
+WHERE major IN ('Biology', 'Chemistry') AND student_id > 2;

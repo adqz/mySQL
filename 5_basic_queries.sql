@@ -13,3 +13,7 @@ LIMIT 2;
 SELECT *
 FROM student
 WHERE major = 'Biology';
+
+SELECT *
+FROM student
+WHERE major = 'Chemistry' OR major = 'Biology';
